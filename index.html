@@ -16,6 +16,10 @@ published: true
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        
+        <div class="entry">
+            {{ post.excerpt }}
+        </div>
       </li>
     {% endfor %}
   </ul>
