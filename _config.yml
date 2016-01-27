@@ -16,6 +16,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ucitshareit.github.io/" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  UCITShareIT
-
+  
 # Build settings
 markdown: kramdown
+# Pretty URL
+permalink: "posts/:title"
+
+# Custom categories
+categories: [navbar]
+
+sass:
+    style: :compressed
